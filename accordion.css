@@ -1,0 +1,36 @@
+.wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.accordion {}
+
+.accordion-item{
+	margin-bottom: 20px;
+}
+.accordion-item--active .accordion-item_trigger {
+	background-color: #ccc;
+}
+.accordion-item--active .accordion-item_content {
+	display: block;
+	background-color: #ccc;
+}
+.accordion-item_trigger{
+
+	padding: 20px;
+	border: 1px solid black;
+}
+.accordion-item_content{
+	padding: 20px;
+	border: 1px solid black;
+	border-top: none;
+	display: none;
+}
+
+/*.accordion-item_input:checked ~ .accordion-item_trigger {
+	background-color: #eee;
+}
+.accordion-item_input:checked ~ .accordion-item_content {
+	display: block;
+	background-color: #eee;
+}*/
